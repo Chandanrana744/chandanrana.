@@ -1,0 +1,180 @@
+@media only screen and (max-width: 576px) {
+    video {
+        margin-top: 10em;
+        margin-right: 0em;
+        width: 96%;
+    }
+
+    .top {
+        font-size: 5.96vw;
+        color: chartreuse;
+        margin-top: 2em;
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aqua;
+        font-size: 1.5em;
+        width: 90vw;
+        float: right;
+        margin-left: 1em;
+        /* margin-top: 3em; */
+        position: static;
+        margin-top: 8em;
+    }
+
+    .align1 img {
+        margin-left: 26vw;
+        margin-top: 11em;
+        margin-bottom: -31vh;
+        /* width: 92% */
+    }
+
+    .align2 img {
+        margin-left: -45vw;
+        margin-top: 18em;
+    }
+
+    .align3 img {
+        margin-left: -45vw;
+        margin-top: 13em;
+    }
+
+    /* .align4 img
+    {
+        margin-left: 1vw;
+        margin-top: 11em;
+    }
+    .align5 img
+    {
+        margin-left: -45vw;
+        margin-top: 13em;
+    } */
+    .background3 {
+        height: 211em;
+    }
+
+    .navbar1 {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        justify-content: center;
+        position: sticky;
+        cursor: pointer;
+        top: 0;
+        font: 34px;
+        /* background-color: black; */
+    }
+
+
+
+    .nav-list1 li {
+        list-style: none;
+        padding: 4px 12px;
+
+        /* margin: ; */
+
+    }
+
+    .nav-list1 li a {
+        text-decoration: none;
+        color: rgb(0, 255, 213);
+        /* color: white; */
+        font-size: 21px;
+    }
+
+    .nav-list1 li a:hover {
+        text-decoration: none;
+        color: rgb(64, 47, 255);
+    }
+
+    .navbar1 {
+        height: 178px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .nav-list1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        width: 94%;
+        margin-top: 0.8em;
+    }
+
+    .top {
+        background-color: rgb(102, 0, 255);
+        width: 81%;
+    }
+
+    .interface-tag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6em;
+        margin-top: 2em;
+    }
+
+    .task {
+        font-size: 1.5em;
+        margin-top: 2em;
+        position: static;
+        width: 8em;
+    }
+
+    .person {
+        font-size: 1.4em;
+        width: 91vw;
+        color: #048000;
+        position: static;
+    }
+
+    .burger {
+        display: block;
+        display: block;
+        top: 14px;
+        left: 10px;
+
+        /* background-color: #048000; */
+    }
+
+    .burger {
+        display: block;
+        display: block;
+        top: 14px;
+        left: 10px;
+        background-color: #c2d0c1;
+        height: 1.4em;
+        position: fixed;
+    }
+
+    .interface img {
+        position: static;
+        margin-left: -1em;
+        margin-top: 4em;
+        /* margin-top: -43em;
+        width: 73%;
+        height: 28vh; */
+        width: 75vw;
+        height: 29vh;
+    }
+
+    .moment1 {
+        font-size: 1.6em;
+    }
+    .backgroundne {
+        background: rgba(0, 0, 0, 0.83) url('../neerajsir/neeraj3.png');
+     
+        height: 190vh;
+        margin-top: -48px;
+        background-blend-mode: darken;
+     
+     }
+    
+
+}

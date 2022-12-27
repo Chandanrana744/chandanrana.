@@ -1,0 +1,258 @@
+.navbar1 {
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   justify-content: center;
+   position: sticky;
+   cursor: pointer;
+   top: 0;
+   font: 34px;
+   /* background-color: black; */
+}
+
+.nav-list1 {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3em;
+   margin-top: -8px;
+   background-color: black;
+   color: white;
+   height: 15vh;
+}
+
+.nav-list1 li {
+   list-style: none;
+   padding: 4px 12px;
+   display: flex;
+   display: inline;
+   justify-content: center;
+   font-size: 18px;
+
+
+   /* margin: ; */
+
+}
+
+.nav-list1 li a {
+   text-decoration: none;
+   color: rgb(0, 255, 213);
+   /* color: white; */
+   font-size: 21px;
+}
+
+.nav-list1 li a:hover {
+   text-decoration: none;
+   color: rgb(64, 47, 255);
+}
+
+.backgroundne {
+   background: rgba(0, 0, 0, 0.83) url('../neerajsir/neeraj3.png');
+
+   height: 248vh;
+   margin-top: -48px;
+   background-blend-mode: darken;
+
+}
+
+.interface {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5em;
+   color: rgb(0, 166, 255);
+   flex-direction: column;
+}
+
+.interface-tag {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2em;
+   /* color: blue; */
+   /* flex-direction: column; */
+}
+
+.subinterface-tag {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2em;
+   color: rgb(0, 229, 255);
+   width: 80vw;
+   /* color: blue; */
+   /* flex-direction: column; */
+}
+
+.photon {
+   background: blue url('/neerajsir/neeraj2.png');
+   width: 34px;
+}
+
+.intro {
+   color: #800000;
+   font-size: 2em;
+   /* position: absolute; */
+   /* float: right; */
+   width: 50%;
+   display: flex;
+   align-items: right;
+   justify-content: right;
+   float: right;
+   margin-left: 13em;
+}
+
+.help {
+   color: #005380;
+   font-size: 1.5em;
+   /* position: absolute; */
+   /* float: right; */
+   width: 50%;
+   display: flex;
+   align-items: right;
+   justify-content: right;
+   float: right;
+   margin-left: 17em;
+   margin-top: 2em;
+}
+
+.background2 {
+   /* background: url(/person/neeraj.png); */
+   height: 50vh;
+   width: 27vw;
+   /* float: right; */
+   /* position: fixed; */
+   margin-left: 35em;
+   margin-top: 15em;
+}
+
+.interface img {
+   position: fixed;
+   margin-left: 36em;
+   margin-top: -19em;
+}
+
+.secondpart {
+   display: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.moment1 {
+   font-size: 2em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.subinterface-tagn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2em;
+   color: rgb(0, 229, 255);
+   width: 80vw;
+   /* color: blue; */
+   /* flex-direction: column; */
+}
+
+.task {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2em;
+   width: 40vw;
+   color:  #807200;
+   position: static;
+   margin-top: 6em;
+
+   /* background-color: aqua; */
+}
+
+.person {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.5em;
+   width: 40vw;
+   color: #048000;  
+   position: static;
+
+   /* background-color: aqua; */
+}
+
+.container {
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+   margin-top: 1em;
+   /* width: 92%; */
+}
+
+.time {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aqua;
+   font-size: 1.5em;
+   width: 50vw;
+   float: right;
+   margin-left: 21em;
+   margin-top: 3em;
+   position: static;
+   margin-top: 8em;
+
+
+}
+
+.background3 {
+   background: rgba(11, 9, 9, 0.82) url(/img/neerajsir.jpg);
+   /* background:black ; */
+   background-blend-mode: darken;
+   height: 248vh;
+   margin: -1em;
+   background-attachment: fixed;
+}
+
+.top {
+   font-size: 3em;
+   color: chartreuse;
+   margin-top: 1em;
+   position: fixed;
+}
+
+.align1 img {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin: 2em -27em;
+   
+   margin-right: 26vw;
+margin-top: 12em;
+margin-bottom: -31vh;
+}
+
+.align2 img {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin: -12em -27em;
+   /* margin-left: -27em; */
+   margin-left: -15vw;
+}
+
+.align3 img {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin: -12em -27em;
+   /* margin-left: -27em; */
+   margin-left: 28vw;
+}
+video{
+   /* position: static; */
+   margin-top: -8em;
+   margin-right: 45em;
+}
